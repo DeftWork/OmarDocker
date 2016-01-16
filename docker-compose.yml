@@ -1,0 +1,11 @@
+web:
+  build: .
+  dockerfile: Dockerfile.web1
+  links:
+    - db
+  ports:
+    - "80:80"
+
+
+db:
+    image: mysql
