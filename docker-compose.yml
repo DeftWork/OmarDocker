@@ -6,6 +6,7 @@ web:
   ports:
     - "80:80"
 
-
 db:
-    image: mysql
+  image: tutum/mysql:latest
+  environment:
+    MYSQL_PASS: "q853OM49oS"
