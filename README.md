@@ -1,11 +1,16 @@
-<h1># OmarDocker</h1>
-<h2>Dependencias:</h2>
-<p>docker, docker-machine, docker-compose</p>
-<h2>Para ejecutar:</h2>
-<p>docker-machine create --driver virtualbox dev</p>
-<p>eval "$(docker-machine env dev)"</p>
-<p>docker-compose up -d</p>
-<p># Cuando realizamos cambios en los ficheros ejecutamos</p>
-<p>docker-compose build</p>
-<p>docker-compose up -d</p>
-<p>...</p>
+# OmarDocker
+##Dependencias:
+- docker 
+- docker-machine
+- docker-compose
+##Para ejecutar:
+	docker-machine create --driver virtualbox dev
+	eval "$(docker-machine env dev)"
+	docker-compose up -d
+Cuando realizamos cambios en los ficheros ejecutamos
+
+	docker-compose build
+	docker-compose up -d
+	...
+jueves, 28. enero 2016 12:25 
+
